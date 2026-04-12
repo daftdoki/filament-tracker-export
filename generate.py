@@ -171,6 +171,23 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   td a { color: var(--accent); text-decoration: none; }
   td a:hover { text-decoration: underline; }
 
+  .sort-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+  .sort-bar label { font-size: 13px; color: var(--text2); white-space: nowrap; }
+  .sort-bar select {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 6px 12px; color: var(--text); font-size: 13px; outline: none; cursor: pointer;
+    appearance: none; -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%239499b3'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 10px center; padding-right: 28px;
+  }
+  .sort-bar select:focus { border-color: var(--accent); }
+  .sort-dir-btn {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 6px 10px; color: var(--text2); font-size: 13px; cursor: pointer;
+    transition: all .15s; line-height: 1;
+  }
+  .sort-dir-btn:hover { color: var(--text); border-color: var(--accent); }
+
   .hidden { display: none !important; }
   .no-results { text-align: center; padding: 60px 20px; color: var(--text2); font-size: 16px; }
 
@@ -196,7 +213,22 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     </div>
   </header>
   <div class="stats" id="stats"></div>
-  <div id="card-view" class="card-grid" style="margin-top:16px"></div>
+  <div id="card-sort-bar" class="sort-bar" style="margin-top:16px">
+    <label for="card-sort-select">Sort by</label>
+    <select id="card-sort-select">
+      <option value="name">Name</option>
+      <option value="code">Code</option>
+      <option value="productType">Type</option>
+      <option value="supplier">Supplier</option>
+      <option value="spools">Spools</option>
+      <option value="refills">Refills</option>
+      <option value="partial">Partial (g)</option>
+      <option value="totalWeight">Open Weight (g)</option>
+      <option value="price">Price</option>
+    </select>
+    <button class="sort-dir-btn" id="card-sort-dir" title="Toggle sort direction">&#9650;</button>
+  </div>
+  <div id="card-view" class="card-grid"></div>
   <div id="table-view" class="hidden" style="margin-top:16px">
     <div class="table-wrap">
       <table>
@@ -353,19 +385,23 @@ function render() {
   const cardV = document.getElementById('card-view');
   const tableV = document.getElementById('table-view');
 
+  const sortBar = document.getElementById('card-sort-bar');
   if (!filtered.length) {
     noRes.classList.remove('hidden');
     cardV.classList.add('hidden');
     tableV.classList.add('hidden');
+    sortBar.classList.add('hidden');
   } else {
     noRes.classList.add('hidden');
     if (currentView === 'cards') {
       cardV.classList.remove('hidden');
       tableV.classList.add('hidden');
+      sortBar.classList.remove('hidden');
       renderCards(filtered);
     } else {
       cardV.classList.add('hidden');
       tableV.classList.remove('hidden');
+      sortBar.classList.add('hidden');
       renderTableHead();
       renderTableBody(filtered);
     }
@@ -390,8 +426,30 @@ document.getElementById('table-head').addEventListener('click', e => {
   const key = th.dataset.sort;
   if (sortCol === key) sortDir *= -1;
   else { sortCol = key; sortDir = 1; }
+  syncSortControls();
   applySort();
 });
+
+const cardSortSelect = document.getElementById('card-sort-select');
+const cardSortDirBtn = document.getElementById('card-sort-dir');
+
+cardSortSelect.addEventListener('change', () => {
+  sortCol = cardSortSelect.value;
+  sortDir = 1;
+  syncSortControls();
+  applySort();
+});
+
+cardSortDirBtn.addEventListener('click', () => {
+  sortDir *= -1;
+  syncSortControls();
+  applySort();
+});
+
+function syncSortControls() {
+  cardSortSelect.value = sortCol;
+  cardSortDirBtn.innerHTML = sortDir === 1 ? '&#9650;' : '&#9660;';
+}
 
 render();
 </script>
