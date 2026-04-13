@@ -141,6 +141,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   .stat-chip.has-stock { background: rgba(74,222,128,.12); color: var(--green); }
   .stat-chip.low-stock { background: rgba(251,191,36,.12); color: var(--yellow); }
   .stat-chip.empty { background: rgba(248,113,113,.08); color: var(--red); }
+  .card-buy-link { text-decoration: none; color: var(--accent); background: rgba(108,126,225,.12); }
   .card-img { width: 100%; height: 140px; object-fit: contain; background: #fff; border-radius: 8px; margin-bottom: 10px; }
   .card-type-tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 4px; background: rgba(108,126,225,.12); color: var(--accent); margin-right: 4px; margin-bottom: 4px; }
   .weight-bar-container { background: var(--surface2); border-radius: 4px; height: 6px; margin-top: 8px; overflow: hidden; }
@@ -286,6 +287,7 @@ function renderCards(list) {
     const imgTag = f.image ? `<img class="card-img" src="${esc(f.image)}" alt="${esc(f.name)}" loading="lazy" onerror="this.style.display='none'">` : '';
     const typeTag = f.productType ? `<span class="card-type-tag">${esc(f.productType)}</span>` : '';
     const priceHtml = f.price ? `<span class="stat-chip">$${f.price}</span>` : '';
+    const buyHtml = f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener" class="stat-chip card-buy-link">Info/Buy</a>` : '';
     return `<div class="card">
       <div class="card-top">
         ${swatchHTML(f.hex1, f.hex2, 'color-swatch')}
@@ -300,6 +302,7 @@ function renderCards(list) {
         <div class="card-stats">
           <span class="stat-chip ${sc}">${stockLabel(f)}</span>
           ${priceHtml}
+          ${buyHtml}
         </div>
         <div class="weight-bar-container">
           <div class="weight-bar" style="width:${pct}%;background:${weightBarColor(pct)}"></div>
@@ -320,7 +323,7 @@ const columns = [
   { key: 'partial', label: 'Partial (g)', sort: (a, b) => b.partial - a.partial },
   { key: 'totalWeight', label: 'Open Weight (g)', sort: (a, b) => b.totalWeight - a.totalWeight },
   { key: 'price', label: 'Price', sort: (a, b) => (b.price||0) - (a.price||0) },
-  { key: 'link', label: 'Link', sort: null },
+  { key: 'link', label: 'Info/Buy', sort: null },
 ];
 
 let sortCol = 'name';
@@ -341,7 +344,7 @@ function renderTableBody(list) {
   if (!list.length) { tbody.innerHTML = ''; return; }
   tbody.innerHTML = list.map(f => {
     const sc = (f.spools + f.refills) > 0 ? 'in-stock' : f.partial > 0 ? 'partial-stock' : 'no-stock';
-    const link = f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">Buy</a>` : '';
+    const link = f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">Info/Buy</a>` : '';
     return `<tr>
       <td>${swatchHTML(f.hex1, f.hex2, 'table-swatch')}</td>
       <td><strong>${esc(f.name)}</strong></td>
