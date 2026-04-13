@@ -28,6 +28,15 @@ def build_filaments(json_path, csv_path):
         for row in csv.DictReader(f):
             csv_data[row["Colour Code"]] = row
 
+    # Build a map from hyphenated slugs (e.g. "pla-matte") to clean names (e.g. "PLA Matte")
+    # Only use properly-cased CSV values (not already-slug values) as canonical names
+    type_slug_map = {}
+    for row in csv_data.values():
+        clean = row.get("Product Type", "").strip()
+        if clean and clean != clean.lower():
+            slug = clean.lower().replace(" ", "-")
+            type_slug_map[slug] = clean
+
     filaments = []
     for code, inv in data["inventory"].items():
         if inv["status"] == "none" and inv["spools"] == 0 and inv["refills"] == 0 and inv.get("partial", 0) == 0:
@@ -43,6 +52,8 @@ def build_filaments(json_path, csv_path):
         product_type = (csv_row or {}).get("Product Type") or ""
         if not product_type and cat and cat.get("typeList"):
             product_type = cat["typeList"][0].get("productType", "")
+        if product_type and product_type in type_slug_map:
+            product_type = type_slug_map[product_type]
 
         supplier = (csv_row or {}).get("Supplier") or (cat or {}).get("supplier") or "Bambu Lab"
 
