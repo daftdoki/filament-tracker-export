@@ -141,8 +141,9 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   .stat-chip.has-stock { background: rgba(74,222,128,.12); color: var(--green); }
   .stat-chip.low-stock { background: rgba(251,191,36,.12); color: var(--yellow); }
   .stat-chip.empty { background: rgba(248,113,113,.08); color: var(--red); }
+  .card-buy-link { text-decoration: none; color: var(--accent); background: rgba(108,126,225,.12); }
   .card-img { width: 100%; height: 140px; object-fit: contain; background: #fff; border-radius: 8px; margin-bottom: 10px; }
-  .card-type-tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 4px; background: rgba(108,126,225,.12); color: var(--accent); margin-right: 4px; margin-bottom: 4px; }
+  .card-type-tag { display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; background: rgba(108,126,225,.18); color: var(--accent); letter-spacing: .3px; text-transform: uppercase; }
   .weight-bar-container { background: var(--surface2); border-radius: 4px; height: 6px; margin-top: 8px; overflow: hidden; }
   .weight-bar { height: 100%; border-radius: 4px; transition: width .3s; }
 
@@ -188,6 +189,16 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   }
   .sort-dir-btn:hover { color: var(--text); border-color: var(--accent); }
 
+  .type-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+  .type-filter-btn {
+    font-size: 12px; font-weight: 600; padding: 5px 14px; border-radius: 20px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--text2);
+    cursor: pointer; transition: all .15s; text-transform: uppercase; letter-spacing: .3px;
+    white-space: nowrap;
+  }
+  .type-filter-btn:hover { border-color: var(--accent); color: var(--text); }
+  .type-filter-btn.active { background: rgba(108,126,225,.18); color: var(--accent); border-color: var(--accent); }
+
   .hidden { display: none !important; }
   .no-results { text-align: center; padding: 60px 20px; color: var(--text2); font-size: 16px; }
 
@@ -213,6 +224,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     </div>
   </header>
   <div class="stats" id="stats"></div>
+  <div class="type-filters" id="type-filters"></div>
   <div id="card-sort-bar" class="sort-bar" style="margin-top:16px">
     <label for="card-sort-select">Sort by</label>
     <select id="card-sort-select">
@@ -243,6 +255,33 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 const filaments = %%FILAMENTS_JSON%%;
 
 filaments.sort((a, b) => a.name.localeCompare(b.name));
+
+const types = [...new Set(filaments.map(f => f.productType).filter(Boolean))].sort();
+let selectedType = '';
+
+(function buildTypeFilters() {
+  const container = document.getElementById('type-filters');
+  const allBtn = document.createElement('button');
+  allBtn.className = 'type-filter-btn active';
+  allBtn.textContent = 'All';
+  allBtn.dataset.type = '';
+  container.appendChild(allBtn);
+  types.forEach(t => {
+    const btn = document.createElement('button');
+    btn.className = 'type-filter-btn';
+    btn.textContent = t;
+    btn.dataset.type = t;
+    container.appendChild(btn);
+  });
+  container.addEventListener('click', e => {
+    const btn = e.target.closest('.type-filter-btn');
+    if (!btn) return;
+    const val = btn.dataset.type;
+    selectedType = (val === selectedType) ? '' : val;
+    container.querySelectorAll('.type-filter-btn').forEach(b => b.classList.toggle('active', b.dataset.type === selectedType));
+    applyFilter();
+  });
+})();
 
 function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 
@@ -286,20 +325,22 @@ function renderCards(list) {
     const imgTag = f.image ? `<img class="card-img" src="${esc(f.image)}" alt="${esc(f.name)}" loading="lazy" onerror="this.style.display='none'">` : '';
     const typeTag = f.productType ? `<span class="card-type-tag">${esc(f.productType)}</span>` : '';
     const priceHtml = f.price ? `<span class="stat-chip">$${f.price}</span>` : '';
+    const buyHtml = f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener" class="stat-chip card-buy-link">Info/Buy</a>` : '';
     return `<div class="card">
       <div class="card-top">
         ${swatchHTML(f.hex1, f.hex2, 'color-swatch')}
         <div>
           <div class="card-title">${esc(f.name)}</div>
           <div class="card-subtitle">${esc(f.code)} &middot; ${esc(f.supplier)}</div>
+          ${typeTag ? `<div style="margin-top:6px">${typeTag}</div>` : ''}
         </div>
       </div>
       <div class="card-body">
         ${imgTag}
-        <div style="margin-bottom:8px">${typeTag}</div>
         <div class="card-stats">
           <span class="stat-chip ${sc}">${stockLabel(f)}</span>
           ${priceHtml}
+          ${buyHtml}
         </div>
         <div class="weight-bar-container">
           <div class="weight-bar" style="width:${pct}%;background:${weightBarColor(pct)}"></div>
@@ -320,7 +361,7 @@ const columns = [
   { key: 'partial', label: 'Partial (g)', sort: (a, b) => b.partial - a.partial },
   { key: 'totalWeight', label: 'Open Weight (g)', sort: (a, b) => b.totalWeight - a.totalWeight },
   { key: 'price', label: 'Price', sort: (a, b) => (b.price||0) - (a.price||0) },
-  { key: 'link', label: 'Link', sort: null },
+  { key: 'link', label: 'Info/Buy', sort: null },
 ];
 
 let sortCol = 'name';
@@ -341,7 +382,7 @@ function renderTableBody(list) {
   if (!list.length) { tbody.innerHTML = ''; return; }
   tbody.innerHTML = list.map(f => {
     const sc = (f.spools + f.refills) > 0 ? 'in-stock' : f.partial > 0 ? 'partial-stock' : 'no-stock';
-    const link = f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">Buy</a>` : '';
+    const link = f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">Info/Buy</a>` : '';
     return `<tr>
       <td>${swatchHTML(f.hex1, f.hex2, 'table-swatch')}</td>
       <td><strong>${esc(f.name)}</strong></td>
@@ -364,6 +405,7 @@ let filtered = [...filaments];
 function applyFilter() {
   const q = document.getElementById('search').value.toLowerCase().trim();
   filtered = filaments.filter(f => {
+    if (selectedType && f.productType !== selectedType) return false;
     if (!q) return true;
     return f.name.toLowerCase().includes(q)
       || f.code.toLowerCase().includes(q)
