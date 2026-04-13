@@ -189,6 +189,16 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   }
   .sort-dir-btn:hover { color: var(--text); border-color: var(--accent); }
 
+  .type-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+  .type-filter-btn {
+    font-size: 12px; font-weight: 600; padding: 5px 14px; border-radius: 20px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--text2);
+    cursor: pointer; transition: all .15s; text-transform: uppercase; letter-spacing: .3px;
+    white-space: nowrap;
+  }
+  .type-filter-btn:hover { border-color: var(--accent); color: var(--text); }
+  .type-filter-btn.active { background: rgba(108,126,225,.18); color: var(--accent); border-color: var(--accent); }
+
   .hidden { display: none !important; }
   .no-results { text-align: center; padding: 60px 20px; color: var(--text2); font-size: 16px; }
 
@@ -214,6 +224,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     </div>
   </header>
   <div class="stats" id="stats"></div>
+  <div class="type-filters" id="type-filters"></div>
   <div id="card-sort-bar" class="sort-bar" style="margin-top:16px">
     <label for="card-sort-select">Sort by</label>
     <select id="card-sort-select">
@@ -244,6 +255,33 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 const filaments = %%FILAMENTS_JSON%%;
 
 filaments.sort((a, b) => a.name.localeCompare(b.name));
+
+const types = [...new Set(filaments.map(f => f.productType).filter(Boolean))].sort();
+let selectedType = '';
+
+(function buildTypeFilters() {
+  const container = document.getElementById('type-filters');
+  const allBtn = document.createElement('button');
+  allBtn.className = 'type-filter-btn active';
+  allBtn.textContent = 'All';
+  allBtn.dataset.type = '';
+  container.appendChild(allBtn);
+  types.forEach(t => {
+    const btn = document.createElement('button');
+    btn.className = 'type-filter-btn';
+    btn.textContent = t;
+    btn.dataset.type = t;
+    container.appendChild(btn);
+  });
+  container.addEventListener('click', e => {
+    const btn = e.target.closest('.type-filter-btn');
+    if (!btn) return;
+    const val = btn.dataset.type;
+    selectedType = (val === selectedType) ? '' : val;
+    container.querySelectorAll('.type-filter-btn').forEach(b => b.classList.toggle('active', b.dataset.type === selectedType));
+    applyFilter();
+  });
+})();
 
 function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 
@@ -367,6 +405,7 @@ let filtered = [...filaments];
 function applyFilter() {
   const q = document.getElementById('search').value.toLowerCase().trim();
   filtered = filaments.filter(f => {
+    if (selectedType && f.productType !== selectedType) return false;
     if (!q) return true;
     return f.name.toLowerCase().includes(q)
       || f.code.toLowerCase().includes(q)
