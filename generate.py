@@ -143,7 +143,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   .stat-chip.empty { background: rgba(248,113,113,.08); color: var(--red); }
   .card-buy-link { text-decoration: none; color: var(--accent); background: rgba(108,126,225,.12); }
   .card-img { width: 100%; height: 140px; object-fit: contain; background: #fff; border-radius: 8px; margin-bottom: 10px; }
-  .card-type-tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 4px; background: rgba(108,126,225,.12); color: var(--accent); margin-right: 4px; margin-bottom: 4px; }
+  .card-type-tag { display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; background: rgba(108,126,225,.18); color: var(--accent); letter-spacing: .3px; text-transform: uppercase; }
   .weight-bar-container { background: var(--surface2); border-radius: 4px; height: 6px; margin-top: 8px; overflow: hidden; }
   .weight-bar { height: 100%; border-radius: 4px; transition: width .3s; }
 
@@ -294,11 +294,11 @@ function renderCards(list) {
         <div>
           <div class="card-title">${esc(f.name)}</div>
           <div class="card-subtitle">${esc(f.code)} &middot; ${esc(f.supplier)}</div>
+          ${typeTag ? `<div style="margin-top:6px">${typeTag}</div>` : ''}
         </div>
       </div>
       <div class="card-body">
         ${imgTag}
-        <div style="margin-bottom:8px">${typeTag}</div>
         <div class="card-stats">
           <span class="stat-chip ${sc}">${stockLabel(f)}</span>
           ${priceHtml}
