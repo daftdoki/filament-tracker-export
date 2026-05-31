@@ -1,0 +1,2686 @@
+{
+  "inventory": {
+    "10100": {
+      "status": "owned",
+      "partial": 950,
+      "spools": 0,
+      "refills": 1,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "pi00la",
+          "weight": 950
+        }
+      ],
+      "stockLocations": {}
+    },
+    "10101": {
+      "status": "owned",
+      "partial": 100,
+      "spools": 2,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "eerwio",
+          "weight": 100
+        }
+      ],
+      "stockLocations": {}
+    },
+    "10103": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 2,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "40j60j",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "10104": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "ga1sld",
+          "weight": 0
+        }
+      ]
+    },
+    "10200": {
+      "status": "owned",
+      "partial": 350,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "s3i2zy",
+          "weight": 350
+        }
+      ]
+    },
+    "10301": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "57tikw",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "10501": {
+      "status": "owned",
+      "partial": 250,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "px2s9l",
+          "weight": 250
+        }
+      ],
+      "stockLocations": {}
+    },
+    "10601": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "qwmkfz",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "10603": {
+      "status": "owned",
+      "partial": 950,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "ilrgfa",
+          "weight": 950
+        }
+      ],
+      "stockLocations": {}
+    },
+    "10701": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "a4zbnd",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "11100": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 0,
+      "refills": 1,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "093zyo",
+          "weight": 0
+        }
+      ]
+    },
+    "11101": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 0,
+      "refills": 1,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "1j8q3j",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "11102": {
+      "status": "owned",
+      "partial": 950,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "3izxnb",
+          "weight": 950
+        }
+      ]
+    },
+    "11600": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 0,
+      "refills": 1,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "xpggxz",
+          "weight": 0
+        }
+      ]
+    },
+    "11700": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 0,
+      "refills": 1,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "f95mjx",
+          "weight": 0
+        }
+      ]
+    },
+    "13101": {
+      "status": "owned",
+      "partial": 900,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "z3kuqv",
+          "weight": 900
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13108": {
+      "status": "owned",
+      "partial": 850,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "9tyigu",
+          "weight": 850
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13109": {
+      "status": "owned",
+      "partial": 850,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "k0ap3u",
+          "weight": 850
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13110": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "yjjxu0",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13405": {
+      "status": "owned",
+      "partial": 600,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "1ii6bx",
+          "weight": 600
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13504": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "pm05la",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13604": {
+      "status": "owned",
+      "partial": 350,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "fwxp46",
+          "weight": 350
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13611": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "tixo9w",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13702": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 2,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "3nd64h",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13710": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "5yn5ab",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "13902": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "hclbs9",
+          "weight": 0
+        }
+      ]
+    },
+    "13916": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "vs4cpa",
+          "weight": 0
+        }
+      ]
+    },
+    "15500": {
+      "status": "owned",
+      "partial": 800,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "mb8v1g",
+          "weight": 800
+        }
+      ],
+      "stockLocations": {}
+    },
+    "15600": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "7quyjw",
+          "weight": 0
+        }
+      ]
+    },
+    "33100": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "kjrqdz",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "33102": {
+      "status": "owned",
+      "partial": 1000,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "k7zz0k",
+          "weight": 1000
+        }
+      ],
+      "stockLocations": {}
+    },
+    "40102": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "zb7aku",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "41100": {
+      "status": "none",
+      "partial": 0,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [],
+      "stockLocations": {}
+    },
+    "41102": {
+      "status": "none",
+      "partial": 0,
+      "spools": 0,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [],
+      "stockLocations": {}
+    },
+    "51103": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "t3cm2v",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "65104": {
+      "status": "owned",
+      "partial": 500,
+      "spools": 2,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "estn8w",
+          "weight": 500
+        }
+      ],
+      "stockLocations": {}
+    },
+    "66400": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "vfeeup",
+          "weight": 0
+        }
+      ],
+      "stockLocations": {}
+    },
+    "C0101": {
+      "status": "owned",
+      "partial": 900,
+      "spools": 0,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "mh9ua7",
+          "weight": 900
+        }
+      ]
+    },
+    "C0102": {
+      "status": "owned",
+      "partial": 500,
+      "spools": 0,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "jxy3fl",
+          "weight": 500
+        }
+      ]
+    },
+    "C0901": {
+      "status": "owned",
+      "partial": 300,
+      "spools": 0,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "9gjrqb",
+          "weight": 500
+        }
+      ]
+    },
+    "C0902": {
+      "status": "owned",
+      "partial": 300,
+      "spools": 0,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "x3cyfk",
+          "weight": 300
+        }
+      ]
+    },
+    "C0903": {
+      "status": "owned",
+      "partial": 550,
+      "spools": 0,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "9xa6sm",
+          "weight": 550
+        }
+      ]
+    },
+    "C0904": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "9ep7qg",
+          "weight": 0
+        }
+      ]
+    },
+    "C0905": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "buyMore": false,
+      "belowMinAutoBuyMore": false,
+      "minStock": 0,
+      "maxStock": 0,
+      "printStatus": null,
+      "ownedQty": 0,
+      "notes": "",
+      "purchaseUrl": "",
+      "purchaseUrls": [],
+      "openSpools": [
+        {
+          "id": "79oj1l",
+          "weight": 0
+        }
+      ]
+    },
+    "C0103": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "amnzmm",
+          "weight": 0
+        }
+      ]
+    },
+    "C0104": {
+      "status": "owned",
+      "partial": 1000,
+      "spools": 0,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "ffvwgg",
+          "weight": 1000
+        }
+      ]
+    },
+    "C0105": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "esd1f0",
+          "weight": 0
+        }
+      ]
+    },
+    "C0106": {
+      "status": "owned",
+      "partial": 350,
+      "spools": 0,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "0eulhn",
+          "weight": 350
+        }
+      ]
+    },
+    "C0107": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "no98ei",
+          "weight": 0
+        }
+      ]
+    },
+    "C0108": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "openSpools": [
+        {
+          "id": "595dsu",
+          "weight": 0
+        }
+      ]
+    },
+    "C0109": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "stockLocations": {},
+      "openSpools": [
+        {
+          "id": "o7ymzb",
+          "weight": 0
+        }
+      ]
+    },
+    "C0110": {
+      "status": "owned",
+      "partial": 0,
+      "spools": 1,
+      "refills": 0,
+      "ownedQty": 0,
+      "notes": "",
+      "buyMore": false,
+      "stockLocations": {},
+      "openSpools": [
+        {
+          "id": "zrezi2",
+          "weight": 0
+        }
+      ]
+    }
+  },
+  "prefs": {
+    "theme": "auto",
+    "mobileCompactView": false,
+    "statusFilterSelections": [
+      "owned"
+    ],
+    "store": "us",
+    "multiSpoolEnabled": false,
+    "stockLocationsEnabled": false,
+    "simpleOpenSpoolsEnabled": false,
+    "bulkLocationModeEnabled": false,
+    "minStockEnabled": false,
+    "autoCloudBackupEnabled": true,
+    "openSpoolWeightGranularity": 50,
+    "slugs": [
+      "bambu-reusable-spool",
+      "pla-basic-filament",
+      "pla-matte",
+      "pla-tough-upgrade",
+      "pla-metal",
+      "pla-sparkle",
+      "pla-marble",
+      "pla-wood",
+      "pla-silk-upgrade",
+      "pla-cf",
+      "pla-aero",
+      "petg-basic",
+      "petg-cf",
+      "petg-translucent",
+      "petg-hf",
+      "abs-filament",
+      "abs-gf",
+      "asa-filament",
+      "asa-aero",
+      "asa-cf",
+      "tpu-95a-hf",
+      "tpu-85a-tpu-90a",
+      "tpu-for-ams",
+      "pc-filament",
+      "pc-fr",
+      "support-for-pla-petg",
+      "support-for-pla-new",
+      "support-for-abs",
+      "paht-cf",
+      "pet-cf",
+      "pa6-cf",
+      "pa6-gf",
+      "ppa-cf",
+      "pps-cf",
+      "pla-galaxy",
+      "pla-translucent",
+      "pla-glow",
+      "pva",
+      "pla-basic-gradient",
+      "pla-silk-multi-color"
+    ],
+    "sortKeys": [
+      "weightDesc",
+      "type"
+    ]
+  },
+  "archive": {
+    "10100": {
+      "colourCode": "10100",
+      "colourName": "Jade White",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/f00291f9a7464d948b9f28fad351932c/White.jpg",
+      "hexColor": "#FFFFFF",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Basic",
+          "slug": "pla-basic-filament",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=40475106640008",
+            "lastChanged": "2026-03-20T12:16:26.021Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=41078274687112",
+            "lastChanged": "2026-03-25T10:18:57.670Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "10101": {
+      "colourCode": "10101",
+      "colourName": "Black",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/d9f087ffd3ae4283893f8a07d6b7e42a/PLA-Basic_Black_e33768fd-c87a-4b2d-a3f7-0b3afc81f13f.png",
+      "hexColor": "#000000",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Basic",
+          "slug": "pla-basic-filament",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=40988815556744",
+            "lastChanged": "2026-03-20T12:16:26.022Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=41078274654344",
+            "lastChanged": "2026-04-07T10:21:21.680Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "10103": {
+      "colourCode": "10103",
+      "colourName": "Gray",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/87769b450c3741df8c6ea30506aca96f/PLA-Basic_Gray.png",
+      "hexColor": "#8E9089",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Basic",
+          "slug": "pla-basic-filament",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=40475106738312",
+            "lastChanged": "2026-04-14T02:21:14.569Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=41211562819720",
+            "lastChanged": "2026-04-14T02:21:14.569Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "10200": {
+      "colourCode": "10200",
+      "colourName": "Red",
+      "majorGroup": "2",
+      "image": "https://store.bblcdn.com/s7/default/c93d0a825f094387a61ba3d5ae0499c7/Red.jpg",
+      "hexColor": "#C12E1F",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Basic",
+          "slug": "pla-basic-filament",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=40475107000456",
+            "lastChanged": "2026-03-20T12:16:26.022Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=41078274621576",
+            "lastChanged": "2026-04-07T10:21:21.680Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "10301": {
+      "colourCode": "10301",
+      "colourName": "Pumpkin Orange",
+      "majorGroup": "3",
+      "image": "https://store.bblcdn.com/s7/default/d5ba9b091d33481fa397bab61034f031/PumpkinOrange.jpg",
+      "hexColor": "#FF9016",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Basic",
+          "slug": "pla-basic-filament",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=43045599543432",
+            "lastChanged": "2026-03-30T20:21:12.304Z",
+            "etaDate": "2026-03-31"
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=565815336288092167",
+            "lastChanged": "2026-03-31T16:20:53.171Z",
+            "etaDate": "2026-04-02"
+          },
+          "other": []
+        }
+      ]
+    },
+    "10501": {
+      "colourCode": "10501",
+      "colourName": "Bambu Green",
+      "majorGroup": "5",
+      "image": "https://store.bblcdn.com/s7/default/dd18e1115a7e444396617a3a884aa091/Bambu_Green.jpg",
+      "hexColor": "#00AE42",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Basic",
+          "slug": "pla-basic-filament",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=41884190146696",
+            "lastChanged": "2026-03-20T12:16:26.022Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=41135419228296",
+            "lastChanged": "2026-03-20T12:16:26.022Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "10601": {
+      "colourCode": "10601",
+      "colourName": "Blue",
+      "majorGroup": "6",
+      "image": "https://store.bblcdn.com/s7/default/d9f20007e8074789926e6d09db4a98fa/PLABasicBlue.jpg",
+      "hexColor": "#0A2989",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Basic",
+          "slug": "pla-basic-filament",
+          "refill": {
+            "availability": "Out of stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=40475106705544",
+            "lastChanged": "2026-04-09T12:20:57.663Z",
+            "etaDate": "2026-04-18"
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=41142110093448",
+            "lastChanged": "2026-04-09T04:20:58.995Z",
+            "etaDate": "2026-05-07"
+          },
+          "other": []
+        }
+      ]
+    },
+    "10603": {
+      "colourCode": "10603",
+      "colourName": "Cyan",
+      "majorGroup": "6",
+      "image": "https://store.bblcdn.com/s7/default/beb1e91ec6f44fa7a12e0793337d7c52/CMYK-Cyan-1.png",
+      "hexColor": "#0086D6",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Basic",
+          "slug": "pla-basic-filament",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=41884192571528",
+            "lastChanged": "2026-03-20T12:16:26.022Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=43257238749320",
+            "lastChanged": "2026-04-08T08:21:10.169Z",
+            "etaDate": "2026-04-09"
+          },
+          "other": []
+        }
+      ]
+    },
+    "10701": {
+      "colourCode": "10701",
+      "colourName": "Indigo Purple",
+      "majorGroup": "7",
+      "image": "https://store.bblcdn.com/s7/default/db7a279375f049dfab2036d8bd8fcac7/IndigoPurple.jpg",
+      "hexColor": "#482960",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Basic",
+          "slug": "pla-basic-filament",
+          "refill": {
+            "availability": "Out of stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=43045597446280",
+            "lastChanged": "2026-04-05T00:21:18.270Z",
+            "etaDate": "2026-04-20"
+          },
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-basic-filament?id=565815336288092179",
+            "lastChanged": "2026-04-05T02:21:27.517Z",
+            "etaDate": "2026-04-18"
+          },
+          "other": []
+        }
+      ]
+    },
+    "11100": {
+      "colourCode": "11100",
+      "colourName": "Matte Ivory White",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/5e5b56df86354802990d37fc23547a01/PLA-Matte_Ivory-White.png",
+      "hexColor": "#FFFFFF",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Matte",
+          "slug": "pla-matte",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-matte?id=40489681780872",
+            "lastChanged": "2026-03-10T07:17:06.126Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-matte?id=41078280159368",
+            "lastChanged": "2026-03-02T03:18:59.208Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "11101": {
+      "colourCode": "11101",
+      "colourName": "Matte Charcoal",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/3b7c97df9bab4d498df93a569dfb51e7/PLA-Matte_Charcoal.png",
+      "hexColor": "#000000",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Matte",
+          "slug": "pla-matte",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-matte?id=40489681944712",
+            "lastChanged": "2026-03-10T07:17:06.126Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-matte?id=41078280126600",
+            "lastChanged": "2026-03-11T08:16:42.113Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "11600": {
+      "colourCode": "11600",
+      "colourName": "Matte Marine Blue",
+      "majorGroup": "6",
+      "image": "https://store.bblcdn.com/s7/default/51f640a9628b4dd2a675f4d9e16a0aab/Matte-Marine-Blue.png",
+      "hexColor": "#0078BF",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Matte",
+          "slug": "pla-matte",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-matte?id=40489682141320",
+            "lastChanged": "2026-03-24T16:15:22.408Z",
+            "etaDate": "2026-03-25"
+          },
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-matte?id=41078280093832",
+            "lastChanged": "2026-04-09T12:21:04.584Z",
+            "etaDate": "2026-04-18"
+          },
+          "other": []
+        }
+      ]
+    },
+    "11700": {
+      "colourCode": "11700",
+      "colourName": "Matte Lilac purple",
+      "majorGroup": "7",
+      "image": "https://store.bblcdn.com/s7/default/49fb500f50284142a42a44598e6aeffd/Matte-Lilac-purple.png",
+      "hexColor": "#AE96D4",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Matte",
+          "slug": "pla-matte",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-matte?id=40489682108552",
+            "lastChanged": "2026-02-27T05:15:17.554Z",
+            "etaDate": null
+          },
+          "withSpool": null,
+          "other": []
+        }
+      ]
+    },
+    "13101": {
+      "colourCode": "13101",
+      "colourName": "Onyx Black Sparkle",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/f97e08749626411f89ac590ecd696b74/PLA-Sparkle_Onyx-Black-Sparkle.png",
+      "hexColor": "#2D2B28",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Sparkle",
+          "slug": "pla-sparkle",
+          "refill": null,
+          "withSpool": {
+            "availability": "In stock",
+            "price": 24.99,
+            "url": "https://us.store.bambulab.com/products/pla-sparkle?id=41002885415048",
+            "lastChanged": "2026-03-05T08:15:34.334Z",
+            "etaDate": "2026-03-23"
+          },
+          "other": []
+        }
+      ]
+    },
+    "13108": {
+      "colourCode": "13108",
+      "colourName": "Titan Gray",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/7a8f7b8c0848412d90ea0f4594b897e1/PLA_Silk_13.jpg",
+      "hexColor": "#5F6367",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Silk+",
+          "slug": "pla-silk-upgrade",
+          "refill": {
+            "availability": "Out of stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=669699942791499784",
+            "lastChanged": "2026-04-12T10:21:44.327Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=43128679858312",
+            "lastChanged": "2026-04-02T10:41:21.214Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "13109": {
+      "colourCode": "13109",
+      "colourName": "Silver",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/0e3f181bc25342ca9c3a96fe019bb796/PLA_Silk_11.jpg",
+      "hexColor": "#C8C8C8",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Silk+",
+          "slug": "pla-silk-upgrade",
+          "refill": {
+            "availability": "Out of stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=669699942791499790",
+            "lastChanged": "2026-04-09T14:21:47.220Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=43128679760008",
+            "lastChanged": "2026-04-10T10:21:24.123Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "13110": {
+      "colourCode": "13110",
+      "colourName": "White",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/c3d94745f6ea493d9c786497701a09b2/PLA_Silk_6.jpg",
+      "hexColor": "#FFFFFF",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Silk+",
+          "slug": "pla-silk-upgrade",
+          "refill": {
+            "availability": "In stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=669699942791499796",
+            "lastChanged": "2026-01-28T12:57:19.273Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=43128679727240",
+            "lastChanged": "2026-03-06T08:17:06.183Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "13405": {
+      "colourCode": "13405",
+      "colourName": "Gold",
+      "majorGroup": "4",
+      "image": "https://store.bblcdn.com/s7/default/8ffced148867425fb0d6d3fb59de0f37/PLA_Silk_8_d3d9592f-96fd-4456-8a9c-fbe9996b41ce.jpg",
+      "hexColor": "#F4A925",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Silk+",
+          "slug": "pla-silk-upgrade",
+          "refill": {
+            "availability": "Out of stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=669699942791499778",
+            "lastChanged": "2026-04-12T10:21:44.327Z",
+            "etaDate": null
+          },
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=43128679792776",
+            "lastChanged": "2026-04-02T10:41:21.214Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "13504": {
+      "colourCode": "13504",
+      "colourName": "Nebulae",
+      "majorGroup": "5",
+      "image": "https://store.bblcdn.com/s7/default/6ad5ef324c17401cad3fb35572b14919/Nublae.jpg",
+      "hexColor": "#424379",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Galaxy",
+          "slug": "pla-galaxy",
+          "refill": null,
+          "withSpool": {
+            "availability": "In stock",
+            "price": 24.99,
+            "url": "https://us.store.bambulab.com/products/pla-galaxy?id=41834260103304",
+            "lastChanged": "2026-04-09T08:22:23.545Z",
+            "etaDate": "2026-04-10"
+          },
+          "other": []
+        }
+      ]
+    },
+    "13604": {
+      "colourCode": "13604",
+      "colourName": "Blue",
+      "majorGroup": "6",
+      "image": "https://store.bblcdn.com/s7/default/5f3e5ce01de7453a9ceb39837a2574b1/PLA_Silk_4.jpg",
+      "hexColor": "#008BDA",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Silk+",
+          "slug": "pla-silk-upgrade",
+          "refill": null,
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=43128679628936",
+            "lastChanged": "2026-04-08T10:22:05.538Z",
+            "etaDate": "2026-04-03"
+          },
+          "other": []
+        }
+      ]
+    },
+    "13611": {
+      "colourCode": "13611",
+      "colourName": "Blue",
+      "majorGroup": "6",
+      "image": "https://store.bblcdn.com/s7/default/38803a9888d047619ec6fec250f8fa99/blue.jpg",
+      "hexColor": "#0047BB",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Translucent",
+          "slug": "pla-translucent",
+          "refill": null,
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-translucent?id=593999615827689493",
+            "lastChanged": "2026-04-11T12:21:36.777Z",
+            "etaDate": "2026-04-16"
+          },
+          "other": []
+        }
+      ]
+    },
+    "13702": {
+      "colourCode": "13702",
+      "colourName": "Purple",
+      "majorGroup": "7",
+      "image": "https://store.bblcdn.com/s7/default/a20bb5bfc489456895f3d594efc256d9/PLA_Silk_9.jpg",
+      "hexColor": "#8671CB",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Silk+",
+          "slug": "pla-silk-upgrade",
+          "refill": null,
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-upgrade?id=43128679661704",
+            "lastChanged": "2026-04-13T14:21:36.644Z",
+            "etaDate": "2026-04-03"
+          },
+          "other": []
+        }
+      ]
+    },
+    "13710": {
+      "colourCode": "13710",
+      "colourName": "Purple",
+      "majorGroup": "7",
+      "image": "https://store.bblcdn.com/s7/default/5b62331f74db41698e6159b071c635cc/purple.jpg",
+      "hexColor": "#8344B0",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Translucent",
+          "slug": "pla-translucent",
+          "refill": null,
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/pla-translucent?id=593999615827689499",
+            "lastChanged": "2026-04-08T10:22:22.925Z",
+            "etaDate": "2026-04-16"
+          },
+          "other": []
+        }
+      ]
+    },
+    "13902": {
+      "colourCode": "13902",
+      "colourName": "Midnight Blaze",
+      "majorGroup": "9",
+      "image": "https://store.bblcdn.com/s7/default/25ca55ad4b9c452c99a9207b376073ef/midnightblaze2.png",
+      "hexColor": "#0047BB",
+      "hexColor2": "#7D1B49",
+      "typeList": [
+        {
+          "productType": "PLA Silk Multi-Color",
+          "slug": "pla-silk-multi-color",
+          "refill": null,
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 24.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-multi-color?id=41629533339784",
+            "lastChanged": "2026-04-14T00:22:11.302Z",
+            "etaDate": "2026-04-16"
+          },
+          "other": []
+        }
+      ]
+    },
+    "13916": {
+      "colourCode": "13916",
+      "colourName": "Phantom Blue",
+      "majorGroup": "9",
+      "image": "https://store.bblcdn.com/s7/default/068bab95664f4495b896de08da80f5d7/Phantom_Blue.jpg",
+      "hexColor": "#00629B",
+      "hexColor2": "#000000",
+      "typeList": [
+        {
+          "productType": "PLA Silk Multi-Color",
+          "slug": "pla-silk-multi-color",
+          "refill": null,
+          "withSpool": {
+            "availability": "In stock",
+            "price": 24.99,
+            "url": "https://us.store.bambulab.com/products/pla-silk-multi-color?id=665320147333804041",
+            "lastChanged": "2026-03-31T18:22:02.148Z",
+            "etaDate": "2026-04-02"
+          },
+          "other": []
+        }
+      ]
+    },
+    "15500": {
+      "colourCode": "15500",
+      "colourName": "Glow Green",
+      "majorGroup": "5",
+      "image": "https://store.bblcdn.com/s7/default/3ae3b1c1bd254058bf08b79f3ee815b3/PLA_Glow.jpg",
+      "hexColor": "#A1FFAC",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Glow",
+          "slug": "pla-glow",
+          "refill": null,
+          "withSpool": {
+            "availability": "In stock",
+            "price": 24.99,
+            "url": "https://us.store.bambulab.com/products/pla-glow?id=41558487859336",
+            "lastChanged": "2026-04-01T16:22:01.251Z",
+            "etaDate": "2026-04-02"
+          },
+          "other": []
+        }
+      ]
+    },
+    "15600": {
+      "colourCode": "15600",
+      "colourName": "Glow Blue",
+      "majorGroup": "6",
+      "image": "https://store.bblcdn.com/s7/default/62abf450b2a743a88c4108f520d44a23/697ef5c2066bf49f4df46a227b1a93c1_f2cca2e1-43ba-4d4d-b20c-832cfa099659.png",
+      "hexColor": "#7AC0E9",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PLA Glow",
+          "slug": "pla-glow",
+          "refill": null,
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 24.99,
+            "url": "https://us.store.bambulab.com/products/pla-glow?id=41558487826568",
+            "lastChanged": "2026-04-13T12:21:53.732Z",
+            "etaDate": "2026-04-18"
+          },
+          "other": []
+        }
+      ]
+    },
+    "33100": {
+      "colourCode": "33100",
+      "colourName": "White",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/7c949a22d4fb484da7aefd5d2abed7b0/PETGHF_7.jpg",
+      "hexColor": "#FFFFFF",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PETG HF",
+          "slug": "petg-hf",
+          "refill": null,
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/petg-hf?id=42735939813512",
+            "lastChanged": "2026-04-03T22:21:13.090Z",
+            "etaDate": "2026-04-05"
+          },
+          "other": []
+        }
+      ]
+    },
+    "33102": {
+      "colourCode": "33102",
+      "colourName": "Black",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/834a8ad1816747b290e1d6c0ea018942/PETGHF_6.jpg",
+      "hexColor": "#000000",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PETG HF",
+          "slug": "petg-hf",
+          "refill": {
+            "availability": "Out of stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/petg-hf?id=42735939715208",
+            "lastChanged": "2026-04-10T10:21:17.578Z",
+            "etaDate": "2026-04-16"
+          },
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/petg-hf?id=42735939682440",
+            "lastChanged": "2026-04-09T18:22:05.654Z",
+            "etaDate": "2026-05-14"
+          },
+          "other": []
+        }
+      ]
+    },
+    "40102": {
+      "colourCode": "40102",
+      "colourName": "ABS Silver",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/69834a7536c540e489913a0f8e707e5e/ABSsilver.png",
+      "hexColor": "#87909A",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "ABS",
+          "slug": "abs-filament",
+          "refill": {
+            "availability": "Out of stock",
+            "price": 19.99,
+            "url": "https://us.store.bambulab.com/products/abs-filament?id=42851556556936",
+            "lastChanged": "2026-04-14T04:23:17.656Z",
+            "etaDate": "2026-04-18"
+          },
+          "withSpool": {
+            "availability": "Out of stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/abs-filament?id=41195746295944",
+            "lastChanged": "2026-04-13T12:22:45.421Z",
+            "etaDate": "2026-05-06"
+          },
+          "other": []
+        }
+      ]
+    },
+    "51103": {
+      "colourCode": "51103",
+      "colourName": "TPU 90A",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/49e65cb79b5547cfa02b8807aa681f61/TPU_90_BK.png",
+      "hexColor": "#000000",
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "TPU 85A / TPU 90A",
+          "slug": "tpu-85a-tpu-90a",
+          "refill": null,
+          "withSpool": {
+            "availability": "In stock",
+            "price": 41.99,
+            "url": "https://us.store.bambulab.com/products/tpu-85a-tpu-90a?id=573761693833371690",
+            "lastChanged": "2026-03-27T16:02:39.197Z",
+            "etaDate": "2026-03-31"
+          },
+          "other": []
+        }
+      ]
+    },
+    "65104": {
+      "colourCode": "65104",
+      "colourName": "White",
+      "majorGroup": "1",
+      "image": "https://store.bblcdn.com/s7/default/167e1bf4b92f41499e2333afcd79fc90/Support_3.png",
+      "hexColor": null,
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "Support for PLA (New Version)",
+          "slug": "support-for-pla-new",
+          "refill": null,
+          "withSpool": {
+            "availability": "In stock",
+            "price": 22.99,
+            "url": "https://us.store.bambulab.com/products/support-for-pla-new?id=578872019709923335",
+            "lastChanged": "2026-03-28T01:59:16.480Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    },
+    "66400": {
+      "colourCode": "66400",
+      "colourName": "Clear",
+      "majorGroup": "4",
+      "image": "https://store.bblcdn.com/s7/default/6927756edcd74795b7707f9d1e6b293c/pvasupport12.jpg",
+      "hexColor": null,
+      "hexColor2": null,
+      "typeList": [
+        {
+          "productType": "PVA",
+          "slug": "pva",
+          "refill": null,
+          "withSpool": {
+            "availability": "In stock",
+            "price": 39.99,
+            "url": "https://us.store.bambulab.com/products/pva?id=41880801542280",
+            "lastChanged": "2026-03-28T01:59:41.280Z",
+            "etaDate": null
+          },
+          "other": []
+        }
+      ]
+    }
+  },
+  "custom": {
+    "C0101": {
+      "colourCode": "C0101",
+      "colourName": "Tricolor Silk PLA Blue/Yellow/Purple",
+      "majorGroup": "9",
+      "image": "https://m.media-amazon.com/images/I/61nEVbRdoaL._AC_SL1000_.jpg",
+      "hex": "#76D6FF",
+      "types": {
+        "pla-silk-multi-color": {
+          "productType": "pla-silk-multi-color",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CMH8G86G?ref=ppx_pop_mob_ap_share"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CMH8G86G?ref=ppx_pop_mob_ap_share"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-silk-multi-color",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CMH8G86G?ref=ppx_pop_mob_ap_share"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CMH8G86G?ref=ppx_pop_mob_ap_share"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "CC3D",
+      "url": "https://www.amazon.com/dp/B0CMH8G86G?ref=ppx_pop_mob_ap_share",
+      "urls": [
+        "https://www.amazon.com/dp/B0CMH8G86G?ref=ppx_pop_mob_ap_share"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#76D6FF"
+    },
+    "C0102": {
+      "colourCode": "C0102",
+      "colourName": "Rainbow Pastel Dream",
+      "majorGroup": "9",
+      "image": "https://www.flashforge.com/cdn/shop/files/fd519f8cd5db9664fecce5dd52d38e51.jpg",
+      "hex": "#F4A4C0",
+      "types": {
+        "pla-silk-multi-color": {
+          "productType": "pla-silk-multi-color",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.flashforge.com/products/pla-silk-rainbow?variant=43171212394574"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.flashforge.com/products/pla-silk-rainbow?variant=43171212394574"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-silk-multi-color",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.flashforge.com/products/pla-silk-rainbow?variant=43171212394574"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.flashforge.com/products/pla-silk-rainbow?variant=43171212394574"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Flashforge",
+      "url": "https://www.flashforge.com/products/pla-silk-rainbow?variant=43171212394574",
+      "urls": [
+        "https://www.flashforge.com/products/pla-silk-rainbow?variant=43171212394574"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#F4A4C0"
+    },
+    "C0103": {
+      "colourCode": "C0103",
+      "colourName": "Silver Gray",
+      "majorGroup": "1",
+      "image": "https://ziro3d.com/cdn/shop/files/SilkPLA-Silver_Gray-1.jpg",
+      "hex": "#AAAAAA",
+      "types": {
+        "pla-silk-upgrade": {
+          "productType": "pla-silk-upgrade",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG5QMNB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG5QMNB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-silk-upgrade",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG5QMNB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG5QMNB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Ziro",
+      "url": "https://www.amazon.com/dp/B08BG5QMNB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+      "urls": [
+        "https://www.amazon.com/dp/B08BG5QMNB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+        "https://ziro3d.com/products/ziro-silk-pla-filament-1-75mm-silver-gray"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#AAAAAA"
+    },
+    "C0104": {
+      "colourCode": "C0104",
+      "colourName": "Silver Black",
+      "majorGroup": "1",
+      "image": "https://ziro3d.com/cdn/shop/files/SilkPLA-Silver_Black-1.jpg",
+      "hex": "#606060",
+      "types": {
+        "pla-silk-upgrade": {
+          "productType": "pla-silk-upgrade",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG646C5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG646C5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-silk-upgrade",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG646C5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG646C5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Ziro",
+      "url": "https://www.amazon.com/dp/B08BG646C5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+      "urls": [
+        "https://www.amazon.com/dp/B08BG646C5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+        "https://ziro3d.com/products/ziro-silk-pla-filament-1-75mm-silver-black"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#606060"
+    },
+    "C0105": {
+      "colourCode": "C0105",
+      "colourName": "Metallic Silver",
+      "majorGroup": "1",
+      "image": "https://www.3dfuel.com/cdn/shop/files/ProPCTG-MetallicSilver-E45MS-spool.jpg",
+      "hex": "#AAAAAA",
+      "types": {
+        "Pro PCTG": {
+          "productType": "Pro PCTG",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0D6XM6JYS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0D6XM6JYS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "Pro PCTG",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0D6XM6JYS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0D6XM6JYS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "3D Fuel",
+      "url": "https://www.amazon.com/dp/B0D6XM6JYS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+      "urls": [
+        "https://www.amazon.com/dp/B0D6XM6JYS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+        "https://www.3dfuel.com/products/pro-pctg-metallic-silver-1-75mm?variant=49567791644988",
+        "https://support.3dfuel.com/hc/en-us/articles/22046343945495-Pro-PCTG-Print-Profiles#h_01JVT41DHMXKJD4V32Q19P6HVX"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#AAAAAA"
+    },
+    "C0106": {
+      "colourCode": "C0106",
+      "colourName": "Clearly Natural",
+      "majorGroup": "1",
+      "image": "https://www.3dfuel.com/cdn/shop/files/pro-pctg-natural-175mm-454238.jpg",
+      "hex": "#FFFFFF",
+      "types": {
+        "Pro PCTG": {
+          "productType": "Pro PCTG",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CG6RCCFY?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CG6RCCFY?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "Pro PCTG",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CG6RCCFY?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CG6RCCFY?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "3D Fuel",
+      "url": "https://www.amazon.com/dp/B0CG6RCCFY?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+      "urls": [
+        "https://www.amazon.com/dp/B0CG6RCCFY?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+        "https://www.3dfuel.com/products/pro-pctg-natural-1-75mm",
+        "https://support.3dfuel.com/hc/en-us/articles/22046343945495-Pro-PCTG-Print-Profiles#h_01JVT41DHMXKJD4V32Q19P6HVX"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#FFFFFF"
+    },
+    "C0107": {
+      "colourCode": "C0107",
+      "colourName": "Silver",
+      "majorGroup": "1",
+      "image": "https://ziro3d.com/cdn/shop/files/SilkPLA-Silver-1.jpg",
+      "hex": "#D6D6D6",
+      "types": {
+        "pla-silk-upgrade": {
+          "productType": "pla-silk-upgrade",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG4NR73?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG4NR73?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-silk-upgrade",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG4NR73?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B08BG4NR73?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Ziro",
+      "url": "https://www.amazon.com/dp/B08BG4NR73?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+      "urls": [
+        "https://www.amazon.com/dp/B08BG4NR73?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+        "https://ziro3d.com/products/ziro-silk-pla-filament-1-75mm-silver"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#D6D6D6"
+    },
+    "C0108": {
+      "colourCode": "C0108",
+      "colourName": "Pro Fluorescent Red",
+      "majorGroup": "2",
+      "image": "https://ziro3d.com/cdn/shop/files/FluorescencePLA-Red-1.jpg",
+      "hex": "#FF4B4B",
+      "types": {
+        "pla-basic-filament": {
+          "productType": "pla-basic-filament",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0F13532BW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0F13532BW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-basic-filament",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0F13532BW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0F13532BW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Ziro",
+      "url": "https://www.amazon.com/dp/B0F13532BW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+      "urls": [
+        "https://www.amazon.com/dp/B0F13532BW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+        "https://ziro3d.com/products/ziro-fluorescence-pla-filament-1-75mm-fluo-red"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#FF4B4B"
+    },
+    "C0109": {
+      "colourCode": "C0109",
+      "colourName": "Red",
+      "majorGroup": "2",
+      "image": "https://store.sunlu.com/cdn/shop/files/PLA_Matte_red.jpg",
+      "hex": "#FF4B4B",
+      "types": {
+        "pla-matte": {
+          "productType": "pla-matte",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0BD7KXV4K?ref=ppx_yo2ov_dt_b_fed_asin_title"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0BD7KXV4K?ref=ppx_yo2ov_dt_b_fed_asin_title"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-matte",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0BD7KXV4K?ref=ppx_yo2ov_dt_b_fed_asin_title"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0BD7KXV4K?ref=ppx_yo2ov_dt_b_fed_asin_title"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Sunlu",
+      "url": "https://www.amazon.com/dp/B0BD7KXV4K?ref=ppx_yo2ov_dt_b_fed_asin_title",
+      "urls": [
+        "https://www.amazon.com/dp/B0BD7KXV4K?ref=ppx_yo2ov_dt_b_fed_asin_title",
+        "https://store.sunlu.com/products/over-6kg-bulk-sale-pla-matte-filament-neatly-wound-filament"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#FF4B4B"
+    },
+    "C0110": {
+      "colourCode": "C0110",
+      "colourName": "Black",
+      "majorGroup": "1",
+      "image": "https://store.sunlu.com/cdn/shop/files/PLA_Matte_black.jpg",
+      "hex": "#000000",
+      "types": {
+        "pla-matte": {
+          "productType": "pla-matte",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0BFHJ4131?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0BFHJ4131?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-matte",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0BFHJ4131?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0BFHJ4131?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Sunlu",
+      "url": "https://www.amazon.com/dp/B0BFHJ4131?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+      "urls": [
+        "https://www.amazon.com/dp/B0BFHJ4131?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+        "https://store.sunlu.com/products/over-6kg-bulk-sale-pla-matte-filament-neatly-wound-filament"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#000000"
+    },
+    "C0901": {
+      "colourCode": "C0901",
+      "colourName": "Red+Blue+Green",
+      "majorGroup": "9",
+      "image": "https://m.media-amazon.com/images/I/61+Rypk-ASL._AC_SL1000_.jpg",
+      "hex": "#009193",
+      "types": {
+        "pla-silk-multi-color": {
+          "productType": "pla-silk-multi-color",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/CC3D-Filament-Coextrusion-Metallic-Printing/dp/B0CMHW6QYW/ref=sr_1_1?crid=1HRNF59P66RFA&dib=eyJ2IjoiMSJ9.C9IbjEskFc_3am9g_A55eiIBgz57Wx--qx13fh6s5C7HkYmBEVhqPxQ9UICcFG9HgdxVhlI2zuWdS7tCfBJ7VK-N_hNfTjRWa0nM5nVJ5PwSGe3C1h8oSSrXqX65Za8LIoHMgvXTAgxfQaURqobQhfBgbdttP_qD4NTolgymOIkCHAbBlVvuLrup-BJgK-tFzZZsYSD8GrM94-UUyrg0Bm2qLxtO7zNlwpFXk_B6HXo.t6AyGqm0sgP8Jwc3UgcHxBB5YSodgSYfWPVe4lq4KXI&dib_tag=se&keywords=CC3D+silk+tri+color+red+blue+green&qid=1776027400&sprefix=cc3d+silk+tri+color+red+blue+green%2Caps%2C195&sr=8-1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/CC3D-Filament-Coextrusion-Metallic-Printing/dp/B0CMHW6QYW/ref=sr_1_1?crid=1HRNF59P66RFA&dib=eyJ2IjoiMSJ9.C9IbjEskFc_3am9g_A55eiIBgz57Wx--qx13fh6s5C7HkYmBEVhqPxQ9UICcFG9HgdxVhlI2zuWdS7tCfBJ7VK-N_hNfTjRWa0nM5nVJ5PwSGe3C1h8oSSrXqX65Za8LIoHMgvXTAgxfQaURqobQhfBgbdttP_qD4NTolgymOIkCHAbBlVvuLrup-BJgK-tFzZZsYSD8GrM94-UUyrg0Bm2qLxtO7zNlwpFXk_B6HXo.t6AyGqm0sgP8Jwc3UgcHxBB5YSodgSYfWPVe4lq4KXI&dib_tag=se&keywords=CC3D+silk+tri+color+red+blue+green&qid=1776027400&sprefix=cc3d+silk+tri+color+red+blue+green%2Caps%2C195&sr=8-1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-silk-multi-color",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/CC3D-Filament-Coextrusion-Metallic-Printing/dp/B0CMHW6QYW/ref=sr_1_1?crid=1HRNF59P66RFA&dib=eyJ2IjoiMSJ9.C9IbjEskFc_3am9g_A55eiIBgz57Wx--qx13fh6s5C7HkYmBEVhqPxQ9UICcFG9HgdxVhlI2zuWdS7tCfBJ7VK-N_hNfTjRWa0nM5nVJ5PwSGe3C1h8oSSrXqX65Za8LIoHMgvXTAgxfQaURqobQhfBgbdttP_qD4NTolgymOIkCHAbBlVvuLrup-BJgK-tFzZZsYSD8GrM94-UUyrg0Bm2qLxtO7zNlwpFXk_B6HXo.t6AyGqm0sgP8Jwc3UgcHxBB5YSodgSYfWPVe4lq4KXI&dib_tag=se&keywords=CC3D+silk+tri+color+red+blue+green&qid=1776027400&sprefix=cc3d+silk+tri+color+red+blue+green%2Caps%2C195&sr=8-1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/CC3D-Filament-Coextrusion-Metallic-Printing/dp/B0CMHW6QYW/ref=sr_1_1?crid=1HRNF59P66RFA&dib=eyJ2IjoiMSJ9.C9IbjEskFc_3am9g_A55eiIBgz57Wx--qx13fh6s5C7HkYmBEVhqPxQ9UICcFG9HgdxVhlI2zuWdS7tCfBJ7VK-N_hNfTjRWa0nM5nVJ5PwSGe3C1h8oSSrXqX65Za8LIoHMgvXTAgxfQaURqobQhfBgbdttP_qD4NTolgymOIkCHAbBlVvuLrup-BJgK-tFzZZsYSD8GrM94-UUyrg0Bm2qLxtO7zNlwpFXk_B6HXo.t6AyGqm0sgP8Jwc3UgcHxBB5YSodgSYfWPVe4lq4KXI&dib_tag=se&keywords=CC3D+silk+tri+color+red+blue+green&qid=1776027400&sprefix=cc3d+silk+tri+color+red+blue+green%2Caps%2C195&sr=8-1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "CC3D",
+      "url": "https://www.amazon.com/CC3D-Filament-Coextrusion-Metallic-Printing/dp/B0CMHW6QYW/ref=sr_1_1?crid=1HRNF59P66RFA&dib=eyJ2IjoiMSJ9.C9IbjEskFc_3am9g_A55eiIBgz57Wx--qx13fh6s5C7HkYmBEVhqPxQ9UICcFG9HgdxVhlI2zuWdS7tCfBJ7VK-N_hNfTjRWa0nM5nVJ5PwSGe3C1h8oSSrXqX65Za8LIoHMgvXTAgxfQaURqobQhfBgbdttP_qD4NTolgymOIkCHAbBlVvuLrup-BJgK-tFzZZsYSD8GrM94-UUyrg0Bm2qLxtO7zNlwpFXk_B6HXo.t6AyGqm0sgP8Jwc3UgcHxBB5YSodgSYfWPVe4lq4KXI&dib_tag=se&keywords=CC3D+silk+tri+color+red+blue+green&qid=1776027400&sprefix=cc3d+silk+tri+color+red+blue+green%2Caps%2C195&sr=8-1",
+      "urls": [
+        "https://www.amazon.com/CC3D-Filament-Coextrusion-Metallic-Printing/dp/B0CMHW6QYW/ref=sr_1_1?crid=1HRNF59P66RFA&dib=eyJ2IjoiMSJ9.C9IbjEskFc_3am9g_A55eiIBgz57Wx--qx13fh6s5C7HkYmBEVhqPxQ9UICcFG9HgdxVhlI2zuWdS7tCfBJ7VK-N_hNfTjRWa0nM5nVJ5PwSGe3C1h8oSSrXqX65Za8LIoHMgvXTAgxfQaURqobQhfBgbdttP_qD4NTolgymOIkCHAbBlVvuLrup-BJgK-tFzZZsYSD8GrM94-UUyrg0Bm2qLxtO7zNlwpFXk_B6HXo.t6AyGqm0sgP8Jwc3UgcHxBB5YSodgSYfWPVe4lq4KXI&dib_tag=se&keywords=CC3D+silk+tri+color+red+blue+green&qid=1776027400&sprefix=cc3d+silk+tri+color+red+blue+green%2Caps%2C195&sr=8-1"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#009193"
+    },
+    "C0902": {
+      "colourCode": "C0902",
+      "colourName": "Silk Rainbow Metallic Bronze Teal etc",
+      "majorGroup": "9",
+      "image": "https://m.media-amazon.com/images/I/61qQB8UZaDL._SL1000_.jpg",
+      "hex": "#929000",
+      "types": {
+        "pla-silk-multi-color": {
+          "productType": "pla-silk-multi-color",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B07PYDNQXS?ref=ppx_pop_mob_ap_share"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B07PYDNQXS?ref=ppx_pop_mob_ap_share"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-silk-multi-color",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B07PYDNQXS?ref=ppx_pop_mob_ap_share"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B07PYDNQXS?ref=ppx_pop_mob_ap_share"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "CC3D",
+      "url": "https://www.amazon.com/dp/B07PYDNQXS?ref=ppx_pop_mob_ap_share",
+      "urls": [
+        "https://www.amazon.com/dp/B07PYDNQXS?ref=ppx_pop_mob_ap_share"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#929000"
+    },
+    "C0903": {
+      "colourCode": "C0903",
+      "colourName": "Rainbow Blaze",
+      "majorGroup": "9",
+      "image": "https://ziro3d.com/cdn/shop/files/FastGradientMattePLA-Rainbow_Blaze-1.jpg",
+      "hex": "#FF40FF",
+      "types": {
+        "pla-matte": {
+          "productType": "pla-matte",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CZ42L479?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CZ42L479?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-matte",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CZ42L479?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0CZ42L479?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Ziro",
+      "url": "https://www.amazon.com/dp/B0CZ42L479?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+      "urls": [
+        "https://www.amazon.com/dp/B0CZ42L479?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+        "https://ziro3d.com/products/ziro-fast-gradient-matte-pla-filament-1-75mm-rainbow-blaze?_pos=1&_psq=rainbow+blaze&_ss=e&_v=1.0"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#FF40FF"
+    },
+    "C0904": {
+      "colourCode": "C0904",
+      "colourName": "Rainbow Neon Nightfall",
+      "majorGroup": "9",
+      "image": "https://www.amolen.com/cdn/shop/files/1-2_41cf8b3a-69d6-451d-bc75-9153d974931f.jpg",
+      "hex": "#BE38F3",
+      "types": {
+        "pla-glow": {
+          "productType": "pla-glow",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amolen.com/products/pla-glow?variant=42147896328215"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amolen.com/products/pla-glow?variant=42147896328215"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-glow",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amolen.com/products/pla-glow?variant=42147896328215"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amolen.com/products/pla-glow?variant=42147896328215"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Amolen",
+      "url": "https://www.amolen.com/products/pla-glow?variant=42147896328215",
+      "urls": [
+        "https://www.amolen.com/products/pla-glow?variant=42147896328215",
+        "https://www.amazon.com/dp/B0D87BX49M?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#BE38F3"
+    },
+    "C0905": {
+      "colourCode": "C0905",
+      "colourName": "Aurora Glow",
+      "majorGroup": "9",
+      "image": "https://m.media-amazon.com/images/I/81ZpvGCbozL._AC_SL1500_.jpg",
+      "hex": "#53D5FD",
+      "types": {
+        "pla-glow": {
+          "productType": "pla-glow",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0F1YB87PT?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0F1YB87PT?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      },
+      "typeList": [
+        {
+          "productType": "pla-glow",
+          "withSpool": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0F1YB87PT?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "refill": {
+            "availability": "In stock",
+            "price": "N/A",
+            "url": "https://www.amazon.com/dp/B0F1YB87PT?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+          },
+          "other": []
+        }
+      ],
+      "isCustom": true,
+      "itemType": "filament",
+      "supplier": "Amolen",
+      "url": "https://www.amazon.com/dp/B0F1YB87PT?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+      "urls": [
+        "https://www.amazon.com/dp/B0F1YB87PT?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+      ],
+      "notes": "",
+      "compatiblePrinters": [],
+      "hexColor": "#53D5FD"
+    }
+  },
+  "customTypes": {
+    "Other": [
+      "Pro PCTG"
+    ]
+  },
+  "stockLocations": [],
+  "ownedPrinters": [
+    "h2d"
+  ],
+  "library": {},
+  "libraryCategories": [],
+  "libraryLocalThumbnails": {}
+}
